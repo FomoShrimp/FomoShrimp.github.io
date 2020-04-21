@@ -1,1 +1,455 @@
-var _0x588e=['contract','location','undefined','BigNumber','claimFreeEggs','bal','tronAmount','lasthatch','getTime','active','removeClass','address','hide','currentWinner','getPotCost','demo','innerHTML','lastbid','referralURL','h\x20:\x20','stealPot','calculateEggBuySimple','TGfWLfsz6nuFTFg5J9Am9psaNPqEhq7JXd','TPNgnC2vLWkfZQE1Wjnvurf2HN3a84MoHK','#check','m\x20:\x20','lastHatch','floor','addClass','log','base58','getHatchCooldown','value','replace','lastBidTime','catch','call','getMyShrimp','hasClaimedFree','show','#acfomo','defaultAddress','textContent','sellEggs','reload','toFixed','send','tronWeb','then','modal','toString','getMyEggs','keyup\x20input','hatchCooldown','#freedata','hatchCooldown2','abs','#achatch','hatchEggs','buyEggs','#exampleModal','#buyEggs','true','hatchableShrimp','data','?ref=','sellPrice','getMyEggs2','getElementById','toNumber'];(function(_0x38f2b2,_0x588ec8){var _0x32ccfa=function(_0x305d67){while(--_0x305d67){_0x38f2b2['push'](_0x38f2b2['shift']());}};_0x32ccfa(++_0x588ec8);}(_0x588e,0x153));var _0x32cc=function(_0x38f2b2,_0x588ec8){_0x38f2b2=_0x38f2b2-0x0;var _0x32ccfa=_0x588e[_0x38f2b2];return _0x32ccfa;};var tronWeb;var waiting=0x0;var currentAddr;var time=0x0;var pottime=0x0;var a_godTimer='';var godtimer_in_seconds=0x0;var god_numhours=0x0;var god_numminutes=0x0;var god_numseconds=0x0;var god_roundover=![];var godtimer_lastminute=0x12c;var i_godTimer=![];async function main(){if(typeof window[_0x32cc('0x3a')]===_0x32cc('0xd')){console[_0x32cc('0x28')]('Waiting\x20for\x20tronWeb...');waiting+=0x1;if(waiting==0x5){$(_0x32cc('0x23'))['modal'](_0x32cc('0x32'));}setTimeout(main,0x3e8);}else{tronWeb=window[_0x32cc('0x3a')];Decker=await tronWeb[_0x32cc('0xb')]()['at'](_0x32cc('0x21'));BigNumber=tronWeb[_0x32cc('0xe')];currentAddr=tronWeb[_0x32cc('0x34')][_0x32cc('0x29')];setTimeout(function(){$(_0x32cc('0x23'))[_0x32cc('0x17')]();load100();},0x7d0);setInterval(function(){mainloop();},0x7d0);}}function nFormatter(_0x5b30bb){isNegative=![];if(_0x5b30bb<0x0){isNegative=!![];}_0x5b30bb=Math[_0x32cc('0x43')](_0x5b30bb);if(_0x5b30bb>=0x3b9aca00){formattedNumber=(_0x5b30bb/0x3b9aca00)[_0x32cc('0x38')](0x1)[_0x32cc('0x2c')](/\.0$/,'')+'G';}else if(_0x5b30bb>=0xf4240){formattedNumber=(_0x5b30bb/0xf4240)[_0x32cc('0x38')](0x1)[_0x32cc('0x2c')](/\.0$/,'')+'M';}else if(_0x5b30bb>=0x3e8){formattedNumber=(_0x5b30bb/0x3e8)[_0x32cc('0x38')](0x1)[_0x32cc('0x2c')](/\.0$/,'')+'K';}else{formattedNumber=_0x5b30bb;}if(isNegative){formattedNumber='-'+formattedNumber;}return formattedNumber;}function cooldowntimer(_0x4eba6c,_0x2e942c){if(i_godTimer==!![]){var _0x36b37c=new Date()['getTime']();var _0x143d3e=_0x4eba6c;godtimer_lastminute=0x0;var _0xf1a1c9=Math[_0x32cc('0x26')](_0x143d3e/0xe10);if(_0xf1a1c9<0xa){_0xf1a1c9='0'+_0xf1a1c9;}var _0x13daf8=Math[_0x32cc('0x26')](_0x143d3e%0xe10/0x3c);if(_0x13daf8<0xa){_0x13daf8='0'+_0x13daf8;}var _0x6dc926=parseFloat(_0x143d3e%0xe10%0x3c)[_0x32cc('0x38')](0x0);if(_0x6dc926<0xa){_0x6dc926='0'+_0x6dc926;}document[_0x32cc('0x9')](_0x2e942c)[_0x32cc('0x1b')]=_0xf1a1c9+_0x32cc('0x1e')+_0x13daf8+_0x32cc('0x24')+_0x6dc926+'s\x20';god_roundover=![];}}function fastupdateGodTimer(_0x11f833,_0x1ae7ac){if(i_godTimer==!![]){var _0x30ec81=new Date()[_0x32cc('0x13')]();var _0x4ee915=_0x11f833-_0x30ec81/0x3e8;if(_0x4ee915>0x0){godtimer_lastminute=0x0;var _0xeca949=Math[_0x32cc('0x26')](_0x4ee915/0xe10);if(_0xeca949<0xa){_0xeca949='0'+_0xeca949;}var _0x3e657b=Math[_0x32cc('0x26')](_0x4ee915%0xe10/0x3c);if(_0x3e657b<0xa){_0x3e657b='0'+_0x3e657b;}var _0x37abdb=parseFloat(_0x4ee915%0xe10%0x3c)[_0x32cc('0x38')](0x0);if(_0x37abdb<0xa){_0x37abdb='0'+_0x37abdb;}document[_0x32cc('0x9')](_0x1ae7ac)[_0x32cc('0x1b')]=_0xeca949+_0x32cc('0x1e')+_0x3e657b+_0x32cc('0x24')+_0x37abdb+'s\x20';god_roundover=![];}else{document[_0x32cc('0x9')](_0x1ae7ac)[_0x32cc('0x1b')]=0x0+'h\x20:\x20'+0x0+_0x32cc('0x24')+0x0+'s\x20';}}}function mainloop(){if(tronWeb['defaultAddress'][_0x32cc('0x29')]!==currentAddr){location[_0x32cc('0x37')]();}var _0x255d0f=window[_0x32cc('0xc')]['origin']+_0x32cc('0x6')+tronWeb[_0x32cc('0x34')][_0x32cc('0x29')];document[_0x32cc('0x9')](_0x32cc('0x1d'))[_0x32cc('0x35')]=_0x255d0f;Decker['getBalance']()[_0x32cc('0x2f')]()[_0x32cc('0x3b')](_0x1bde3c=>{var _0x5ae5c2=_0x1bde3c['toString']();document[_0x32cc('0x9')](_0x32cc('0x10'))[_0x32cc('0x35')]=(_0x5ae5c2/0xf4240)['toFixed'](0x2);});Decker[_0x32cc('0x18')]()[_0x32cc('0x2f')]()[_0x32cc('0x3b')](_0x1e109b=>{var _0x3f1e5e=_0x1e109b[_0x32cc('0x3d')]();var _0x13dfe7=tronWeb[_0x32cc('0x16')]['fromHex'](_0x3f1e5e);document['getElementById']('winner')[_0x32cc('0x35')]=_0x13dfe7;});Decker[_0x32cc('0x31')](currentAddr)[_0x32cc('0x2f')]()['then'](_0x8f6062=>{var _0x118685=_0x8f6062['toString']();if(_0x118685==_0x32cc('0x3')){$('#freedata')[_0x32cc('0x17')]();}else{$(_0x32cc('0x41'))[_0x32cc('0x32')]();}});Decker[_0x32cc('0x19')]()[_0x32cc('0x2f')]()[_0x32cc('0x3b')](_0x3b4b2b=>{console[_0x32cc('0x28')](_0x32cc('0x7'),_0x3b4b2b);var _0x5189a0=_0x3b4b2b[_0x32cc('0x3d')]();document[_0x32cc('0x9')](_0x32cc('0x19'))[_0x32cc('0x35')]=_0x5189a0;});Decker[_0x32cc('0x25')](currentAddr)['call']()[_0x32cc('0x3b')](_0xd1777e=>{var _0x3a19e0=_0xd1777e['toNumber']();var _0x15e0aa=_0x3a19e0+0x15180;fastupdateGodTimer(_0x15e0aa,_0x32cc('0x12'));});Decker['hatchCooldown'](currentAddr)[_0x32cc('0x2f')]()[_0x32cc('0x3b')](_0x21e1ad=>{console[_0x32cc('0x28')](_0x32cc('0x40'),_0x21e1ad);var _0x5bacbc=_0x21e1ad['toNumber']();cooldowntimer(_0x5bacbc,_0x32cc('0x42'));});Decker['hatchCooldownTime'](currentAddr)[_0x32cc('0x2f')]()[_0x32cc('0x3b')](_0x4d4323=>{console[_0x32cc('0x28')](_0x32cc('0x40'),_0x4d4323);var _0x191f54=_0x4d4323[_0x32cc('0xa')]();if(_0x191f54==0x0){cooldowntimer(_0x191f54,_0x32cc('0x40'));}else{fastupdateGodTimer(_0x191f54,'hatchCooldown');}});Decker['potDrainTime']()[_0x32cc('0x2f')]()[_0x32cc('0x3b')](_0x12d31b=>{pottime=_0x12d31b[_0x32cc('0xa')]();});Decker['getFreeEggs']()[_0x32cc('0x2f')]()[_0x32cc('0x3b')](_0x564786=>{var _0x1bde1d=_0x564786[_0x32cc('0xa')]();document[_0x32cc('0x9')]('getFreeEggs')['textContent']=(_0x1bde1d/0x15180)[_0x32cc('0x38')](0x3);});Decker[_0x32cc('0x3e')]()[_0x32cc('0x2f')]()[_0x32cc('0x3b')](_0x50300a=>{var _0x4621b4=_0x50300a['toNumber']();document[_0x32cc('0x9')]('getMyEggs')[_0x32cc('0x35')]=_0x4621b4;document['getElementById'](_0x32cc('0x8'))[_0x32cc('0x35')]=_0x4621b4;document[_0x32cc('0x9')](_0x32cc('0x4'))['textContent']=(_0x4621b4/0x15180)[_0x32cc('0x38')](0x2);Decker['calculateEggSell'](_0x4621b4)['call']()[_0x32cc('0x3b')](_0x1da914=>{var _0x5f4ac6=_0x1da914['toNumber']();document[_0x32cc('0x9')](_0x32cc('0x11'))['textContent']=(_0x5f4ac6/0xf4240)[_0x32cc('0x38')](0x2);});});Decker[_0x32cc('0x30')]()[_0x32cc('0x2f')]()[_0x32cc('0x3b')](_0xf564fa=>{var _0x15dd75=_0xf564fa[_0x32cc('0xa')]();document[_0x32cc('0x9')](_0x32cc('0x30'))[_0x32cc('0x35')]=_0x15dd75;document[_0x32cc('0x9')]('hour')[_0x32cc('0x35')]=_0x15dd75*0xe10;});Decker[_0x32cc('0x2d')]()[_0x32cc('0x2f')]()[_0x32cc('0x3b')](_0x96e1be=>{console[_0x32cc('0x28')](_0x32cc('0x1c'),_0x96e1be);var _0x3045b4=_0x96e1be['toNumber']();console[_0x32cc('0x28')](_0x32cc('0x5'),_0x3045b4);time=pottime+_0x3045b4;var _0x297d13=time;i_godTimer=!![];fastupdateGodTimer(_0x297d13,_0x32cc('0x1a'));});}function load100(){Decker[_0x32cc('0x20')](0x5f5e100)[_0x32cc('0x2f')]()[_0x32cc('0x3b')](_0x5ec777=>{console[_0x32cc('0x28')](_0x32cc('0x20'),_0x5ec777);var _0x405b0d=_0x5ec777[_0x32cc('0xa')]();document[_0x32cc('0x9')](_0x32cc('0x20'))[_0x32cc('0x35')]=_0x405b0d;Decker[_0x32cc('0x2a')](_0x405b0d)[_0x32cc('0x2f')]()['then'](_0x8b1414=>{console[_0x32cc('0x28')](_0x32cc('0x2a'),_0x8b1414);var _0x1e157b=_0x8b1414[_0x32cc('0xa')]();cooldowntimer(_0x1e157b,'getHatchCooldown');});});}function claimFreeEggs(){Decker[_0x32cc('0xf')]()[_0x32cc('0x39')]({})[_0x32cc('0x3b')](_0x46982d=>{$(_0x32cc('0x1'))[_0x32cc('0x3c')](_0x32cc('0x17'));callback();$('#fomo')['hide']();$('#eggs')[_0x32cc('0x17')]();$('#hatch')[_0x32cc('0x32')]();$(_0x32cc('0x33'))[_0x32cc('0x15')](_0x32cc('0x14'));$(_0x32cc('0x44'))[_0x32cc('0x27')](_0x32cc('0x14'));$('#aceggs')[_0x32cc('0x15')](_0x32cc('0x14'));})[_0x32cc('0x2e')](_0x3123ff=>{console[_0x32cc('0x28')](_0x3123ff);});}function hatchEggs(){Decker[_0x32cc('0x45')](_0x32cc('0x22'))[_0x32cc('0x39')]({})[_0x32cc('0x3b')](_0x433ffd=>{callback();})[_0x32cc('0x2e')](_0xc4eaf6=>{console['log'](_0xc4eaf6);});}function sellEggs(){Decker[_0x32cc('0x36')]()[_0x32cc('0x39')]({})[_0x32cc('0x3b')](_0x3bc443=>{callback();})[_0x32cc('0x2e')](_0x3667cb=>{console[_0x32cc('0x28')](_0x3667cb);});}function buy(){var _0x2f21d4=document[_0x32cc('0x9')](_0x32cc('0x0'))[_0x32cc('0x2b')];var _0x27b114=_0x2f21d4*0xf4240;Decker['buyEggs']()[_0x32cc('0x39')]({'callValue':_0x27b114})['then'](_0x3c8a3c=>{callback();load100();})[_0x32cc('0x2e')](_0x5f0b0d=>{console[_0x32cc('0x28')](_0x5f0b0d);});}function stealPot(){Decker[_0x32cc('0x1f')]()[_0x32cc('0x39')]({})['then'](_0x403601=>{callback();})[_0x32cc('0x2e')](_0x2aadbd=>{console['log'](_0x2aadbd);});}$(_0x32cc('0x2'))['on'](_0x32cc('0x3f'),function(){var _0x1e302a=document[_0x32cc('0x9')](_0x32cc('0x0'))[_0x32cc('0x2b')];var _0x16f53d=_0x1e302a*0xf4240;if(_0x16f53d>=0x1){Decker[_0x32cc('0x20')](_0x16f53d)[_0x32cc('0x2f')]()['then'](_0x317766=>{var _0xb3f735=_0x317766['toNumber']();document[_0x32cc('0x9')](_0x32cc('0x20'))[_0x32cc('0x35')]=_0xb3f735;Decker['getHatchCooldown'](_0xb3f735)[_0x32cc('0x2f')]()[_0x32cc('0x3b')](_0x3312ad=>{console[_0x32cc('0x28')]('getHatchCooldown',_0x3312ad);var _0x47c6c0=_0x3312ad[_0x32cc('0xa')]();cooldowntimer(_0x47c6c0,_0x32cc('0x2a'));});});}else{document[_0x32cc('0x9')]('calculateEggBuySimple')[_0x32cc('0x35')]=0x0;}});main();
+var tronWeb;
+var waiting = 0;
+var currentAddr;
+var time = 0;
+var pottime = 0;
+
+
+
+var a_godTimer = "";
+var godtimer_in_seconds = 0;
+var god_numhours = 0;
+var god_numminutes = 0;
+var god_numseconds = 0;
+
+var god_roundover = false;
+var godtimer_lastminute = 300;
+var i_godTimer = false;
+
+
+
+
+async function main() {
+
+    if (typeof(window.tronWeb) === 'undefined') {
+        console.log('Waiting for tronWeb...');
+        waiting += 1;
+        if (waiting == 5) {
+            // $("#tronWebModal").modal("hide");
+            //  $("#noTronWebModal").modal("show");
+            $('#check').modal('show');
+        }
+        setTimeout(main, 1000);
+    } else {
+        tronWeb = window.tronWeb;
+        Decker = await tronWeb.contract().at("TGfWLfsz6nuFTFg5J9Am9psaNPqEhq7JXd");
+        // Decker = await tronWeb.contract().at("TCzf7JntvZDmHVoPnhcsmJ4yBXhiX4tt1q");
+
+        BigNumber = tronWeb.BigNumber;
+        currentAddr = tronWeb.defaultAddress['base58'];
+        setTimeout(function() {
+            //  $("#tronWebModal").modal("hide");
+            // $("#noTronWebModal").modal("hide");
+            $('#check').hide();
+            load100();
+        }, 2000);
+        setInterval(function() {
+            mainloop();
+        }, 2000);
+    }
+}
+
+
+
+
+function nFormatter(num) {
+    isNegative = false
+    if (num < 0) {
+        isNegative = true
+    }
+    num = Math.abs(num)
+    if (num >= 1000000000) {
+        formattedNumber = (num / 1000000000).toFixed(1).replace(/\.0$/, '') + 'G';
+    } else if (num >= 1000000) {
+        formattedNumber = (num / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
+    } else if (num >= 1000) {
+        formattedNumber = (num / 1000).toFixed(1).replace(/\.0$/, '') + 'K';
+    } else {
+        formattedNumber = num;
+    }
+    if (isNegative) {
+        formattedNumber = '-' + formattedNumber
+    }
+    return formattedNumber;
+}
+
+
+
+
+//Local timer update
+function cooldowntimer(data, doc) {
+    if (i_godTimer == true) {
+        var _blocktime = (new Date()).getTime(); //current "blocktime" in milliseconds
+        var _timer = data;
+
+        //   if (_timer > 0) {
+        godtimer_lastminute = 0;
+        var _hours = Math.floor(_timer / 3600);
+        if (_hours < 10) {
+            _hours = "0" + _hours
+        }
+        var _minutes = Math.floor((_timer % 3600) / 60);
+        if (_minutes < 10) {
+            _minutes = "0" + _minutes
+        }
+        var _seconds = parseFloat((_timer % 3600) % 60).toFixed(0);
+        if (_seconds < 10) {
+            _seconds = "0" + _seconds
+        }
+
+
+        document.getElementById(doc).innerHTML = _hours + "h : " + _minutes + "m : " + _seconds + 's ';
+        //  godtimerdoc.innerHTML = _hours  + "h : " + _minutes + "m : " + _seconds + 's ';
+        god_roundover = false;
+        /*   } else if (_timer <= 0 && godtimer_lastminute < 30) {
+           document.getElementById(doc).innerHTML =  _hours  + "h : " + _minutes + "m : " + _seconds + 's ';
+            godtimer_lastminute++;
+            god_roundover = false;
+        } else {
+           document.getElementById(doc).innerHTML =  _hours  + "h : " + _minutes + "m : " + _seconds + 's ';
+            god_roundover = true;
+        }
+    } */
+    }
+}
+
+function fastupdateGodTimer(data, doc) {
+    if (i_godTimer == true) {
+        var _blocktime = (new Date()).getTime(); //current "blocktime" in milliseconds
+        var _timer = data - (_blocktime / 1000);
+
+        if (_timer > 0) {
+        godtimer_lastminute = 0;
+        var _hours = Math.floor(_timer / 3600);
+        if (_hours < 10) {
+            _hours = "0" + _hours
+        }
+        var _minutes = Math.floor((_timer % 3600) / 60);
+        if (_minutes < 10) {
+            _minutes = "0" + _minutes
+        }
+        var _seconds = parseFloat((_timer % 3600) % 60).toFixed(0);
+        if (_seconds < 10) {
+            _seconds = "0" + _seconds
+        }
+
+
+        document.getElementById(doc).innerHTML = _hours + "h : " + _minutes + "m : " + _seconds + 's ';
+        //  godtimerdoc.innerHTML = _hours  + "h : " + _minutes + "m : " + _seconds + 's ';
+        god_roundover = false;
+        /*   } else if (_timer <= 0 && godtimer_lastminute < 30) {
+           document.getElementById(doc).innerHTML =  _hours  + "h : " + _minutes + "m : " + _seconds + 's ';
+            godtimer_lastminute++;
+            god_roundover = false;
+      */  } else {
+           document.getElementById(doc).innerHTML =  0  + "h : " + 0 + "m : " + 0 + 's ';
+//god_roundover = true;
+        
+    }
+    }
+}
+
+//Current round timer
+
+
+
+
+function mainloop() {
+    if (tronWeb.defaultAddress['base58'] !== currentAddr) {
+        location.reload();
+    }
+
+
+    //  document.getElementById('referralAddress').value = currentAddr; 
+
+    var dataRef = window.location.origin + "?ref=" + tronWeb.defaultAddress['base58']
+    document.getElementById('referralURL').textContent = dataRef;
+
+
+
+
+    Decker.getBalance().call().then(result => {
+        //console.log("sellPrice", result);
+        var amount = ((result.toString()));
+        document.getElementById("bal").textContent = (amount / 1e6).toFixed(2);
+
+
+    });
+
+
+    Decker.currentWinner().call().then(result => {
+        //console.log("sellPrice", result);
+        var win = ((result.toString()));
+        var curr = tronWeb.address.fromHex(win)
+        document.getElementById("winner").textContent = curr;
+
+    });
+    Decker.hasClaimedFree(currentAddr).call().then(result => {
+        //console.log("sellPrice", result);
+        var data = ((result.toString()));
+         if(data == "true"){
+                $('#freedata').hide();
+               }
+            else{
+                 $('#freedata').show();
+            }
+       
+    });
+
+
+
+
+    Decker.getPotCost().call().then(result => {
+        console.log("sellPrice", result);
+        var getPotCost = ((result.toString()));
+        document.getElementById("getPotCost").textContent = getPotCost;
+
+    });
+
+
+
+
+    Decker.lastHatch(currentAddr).call().then(result => {
+        //console.log("sellPrice", result);
+        var lastHatch = ((result.toNumber()));
+        var timedata = lastHatch + 86400;
+        fastupdateGodTimer(timedata, 'lasthatch');
+
+        //    document.getElementById("winner").textContent = tronWeb.toBase58(win);
+
+    });
+
+
+    Decker.hatchCooldown(currentAddr).call().then(result => {
+        console.log("hatchCooldown", result);
+        var hatchCooldown = ((result.toNumber()));
+        //   document.getElementById("getHatchCooldown").textContent = getHatchCooldown;
+        //  console.log("data", data);
+         cooldowntimer(hatchCooldown, 'hatchCooldown2');
+
+
+
+    });
+
+    Decker.hatchCooldownTime(currentAddr).call().then(result => {
+        console.log("hatchCooldown", result);
+        var hatchCooldown = ((result.toNumber()));
+        //   document.getElementById("getHatchCooldown").textContent = getHatchCooldown;
+        //  console.log("data", data);
+        if (hatchCooldown == 0) {
+            cooldowntimer(hatchCooldown, 'hatchCooldown');
+        } else {
+
+            fastupdateGodTimer(hatchCooldown, 'hatchCooldown');
+        }
+
+
+    });
+
+
+
+
+    Decker.potDrainTime().call().then(result => {
+        //console.log("sellPrice", result);
+        pottime = ((result.toNumber()));
+        //    document.getElementById("winner").textContent = tronWeb.toBase58(win);
+
+    });
+
+    Decker.getFreeEggs().call().then(result => {
+        //console.log("sellPrice", result);
+        var getFreeEggs = ((result.toNumber()));
+        document.getElementById("getFreeEggs").textContent = (getFreeEggs / 86400).toFixed(3);
+
+    });
+
+
+
+
+    Decker.getMyEggs().call().then(result => {
+        //console.log("sellPrice", result);
+        var getMyEggs = ((result.toNumber()));
+        document.getElementById("getMyEggs").textContent = getMyEggs;
+        document.getElementById("getMyEggs2").textContent = getMyEggs;
+        document.getElementById("hatchableShrimp").textContent = (getMyEggs / 86400).toFixed(2);
+
+
+        Decker.calculateEggSell(getMyEggs).call().then(result => {
+            //console.log("sellPrice", result);
+            var tronAmount = ((result.toNumber()));
+            document.getElementById("tronAmount").textContent = (tronAmount / 1e6).toFixed(2);
+
+        });
+
+    });
+    Decker.getMyShrimp().call().then(result => {
+        //console.log("sellPrice", result);
+        var getMyShrimp = ((result.toNumber()));
+        document.getElementById("getMyShrimp").textContent = getMyShrimp;
+        document.getElementById("hour").textContent = getMyShrimp * 3600;
+
+    });
+
+    Decker.lastBidTime().call().then(result => {
+        console.log("lastbid", result);
+        var data = ((result.toNumber()));
+        console.log("data", data);
+        //    parseInt("10")
+        time = pottime + data;
+        var datax = time;
+
+        i_godTimer = true;
+
+        fastupdateGodTimer(datax, 'demo');
+        //    document.getElementById("winner").textContent = tronWeb.toBase58(win);
+
+    });
+
+
+
+
+}
+
+
+
+
+function load100() {
+
+    Decker.calculateEggBuySimple(100000000).call().then(result => {
+        console.log("calculateEggBuySimple", result);
+        var calculateEggBuySimple = ((result.toNumber()));
+        document.getElementById("calculateEggBuySimple").textContent = calculateEggBuySimple;
+
+        //  console.log("data", data);
+        Decker.getHatchCooldown(calculateEggBuySimple).call().then(result => {
+            console.log("getHatchCooldown", result);
+            var getHatchCooldown = ((result.toNumber()));
+            //   document.getElementById("getHatchCooldown").textContent = getHatchCooldown;
+            //  console.log("data", data);
+            cooldowntimer(getHatchCooldown, 'getHatchCooldown');
+
+        });
+
+
+
+
+    });
+
+
+
+
+}
+
+
+
+
+function claimFreeEggs() {
+
+
+    Decker.claimFreeEggs().send({
+
+    }).then(result => {
+
+        $("#exampleModal").modal('hide');
+
+        callback();
+                    $( "#fomo" ).hide();
+             $( "#eggs" ).hide();
+             $( "#hatch" ).show();
+                 $( "#acfomo" ).removeClass('active');
+            $( "#achatch" ).addClass('active');
+             $( "#aceggs" ).removeClass('active');
+    }).catch((err) => {
+        console.log(err)
+    });
+
+}
+
+function hatchEggs() {
+
+
+    Decker.hatchEggs('TPNgnC2vLWkfZQE1Wjnvurf2HN3a84MoHK').send({
+
+    }).then(result => {
+
+
+        callback();
+    }).catch((err) => {
+        console.log(err)
+    });
+
+}
+
+
+
+
+function sellEggs() {
+
+    Decker.sellEggs().send({
+
+    }).then(result => {
+        callback();
+    }).catch((err) => {
+        console.log(err)
+    });
+
+}
+
+function buy() {
+    var _trxneeded = (document.getElementById('buyEggs').value);
+    var _amt = _trxneeded * 1e6;
+    Decker.buyEggs().send({
+        callValue: _amt
+    }).then(result => {
+        callback();
+        load100();
+    }).catch((err) => {
+        console.log(err)
+    });
+
+}
+
+function stealPot() {
+
+    Decker.stealPot().send({}).then(result => {
+        callback();
+    }).catch((err) => {
+        console.log(err)
+    });
+
+}
+
+
+
+
+$('#buyEggs').on('keyup input', function() {
+
+    var amt = document.getElementById('buyEggs').value;
+    var data = amt * 1e6;
+    if (data >= 1) {
+        Decker.calculateEggBuySimple(data).call().then(result => {
+            var calculateEggBuySimple = ((result.toNumber()));
+            document.getElementById("calculateEggBuySimple").textContent = calculateEggBuySimple;
+
+
+            Decker.getHatchCooldown(calculateEggBuySimple).call().then(result => {
+                console.log("getHatchCooldown", result);
+                var getHatchCooldown = ((result.toNumber()));
+
+                //  console.log("data", data);
+                cooldowntimer(getHatchCooldown, 'getHatchCooldown');
+
+            });
+        });
+    } else {
+        document.getElementById("calculateEggBuySimple").textContent = 0;
+    }
+
+
+
+});
+
+
+
+
+main();
