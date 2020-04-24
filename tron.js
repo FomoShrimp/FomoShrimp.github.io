@@ -1,1 +1,455 @@
- var _0xbbf7=["","\x74\x72\x6F\x6E\x57\x65\x62","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x57\x61\x69\x74\x69\x6E\x67\x20\x66\x6F\x72\x20\x74\x72\x6F\x6E\x57\x65\x62\x2E\x2E\x2E","\x6C\x6F\x67","\x73\x68\x6F\x77","\x6D\x6F\x64\x61\x6C","\x23\x63\x68\x65\x63\x6B","\x54\x47\x66\x57\x4C\x66\x73\x7A\x36\x6E\x75\x46\x54\x46\x67\x35\x4A\x39\x41\x6D\x39\x70\x73\x61\x4E\x50\x71\x45\x68\x71\x37\x4A\x58\x64","\x61\x74","\x63\x6F\x6E\x74\x72\x61\x63\x74","\x42\x69\x67\x4E\x75\x6D\x62\x65\x72","\x62\x61\x73\x65\x35\x38","\x64\x65\x66\x61\x75\x6C\x74\x41\x64\x64\x72\x65\x73\x73","\x68\x69\x64\x65","\x61\x62\x73","\x72\x65\x70\x6C\x61\x63\x65","\x74\x6F\x46\x69\x78\x65\x64","\x47","\x4D","\x4B","\x2D","\x67\x65\x74\x54\x69\x6D\x65","\x66\x6C\x6F\x6F\x72","\x30","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x68\x20\x3A\x20","\x6D\x20\x3A\x20","\x73\x20","\x72\x65\x6C\x6F\x61\x64","\x6F\x72\x69\x67\x69\x6E","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x3F\x72\x65\x66\x3D","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x72\x65\x66\x65\x72\x72\x61\x6C\x55\x52\x4C","\x62\x61\x6C","\x74\x68\x65\x6E","\x63\x61\x6C\x6C","\x67\x65\x74\x42\x61\x6C\x61\x6E\x63\x65","\x66\x72\x6F\x6D\x48\x65\x78","\x61\x64\x64\x72\x65\x73\x73","\x77\x69\x6E\x6E\x65\x72","\x63\x75\x72\x72\x65\x6E\x74\x57\x69\x6E\x6E\x65\x72","\x74\x72\x75\x65","\x23\x66\x72\x65\x65\x64\x61\x74\x61","\x68\x61\x73\x43\x6C\x61\x69\x6D\x65\x64\x46\x72\x65\x65","\x73\x65\x6C\x6C\x50\x72\x69\x63\x65","\x67\x65\x74\x50\x6F\x74\x43\x6F\x73\x74","\x74\x6F\x4E\x75\x6D\x62\x65\x72","\x6C\x61\x73\x74\x68\x61\x74\x63\x68","\x6C\x61\x73\x74\x48\x61\x74\x63\x68","\x68\x61\x74\x63\x68\x43\x6F\x6F\x6C\x64\x6F\x77\x6E","\x68\x61\x74\x63\x68\x43\x6F\x6F\x6C\x64\x6F\x77\x6E\x32","\x68\x61\x74\x63\x68\x43\x6F\x6F\x6C\x64\x6F\x77\x6E\x54\x69\x6D\x65","\x70\x6F\x74\x44\x72\x61\x69\x6E\x54\x69\x6D\x65","\x67\x65\x74\x46\x72\x65\x65\x45\x67\x67\x73","\x67\x65\x74\x4D\x79\x45\x67\x67\x73","\x67\x65\x74\x4D\x79\x45\x67\x67\x73\x32","\x68\x61\x74\x63\x68\x61\x62\x6C\x65\x53\x68\x72\x69\x6D\x70","\x74\x72\x6F\x6E\x41\x6D\x6F\x75\x6E\x74","\x63\x61\x6C\x63\x75\x6C\x61\x74\x65\x45\x67\x67\x53\x65\x6C\x6C","\x67\x65\x74\x4D\x79\x53\x68\x72\x69\x6D\x70","\x68\x6F\x75\x72","\x6C\x61\x73\x74\x62\x69\x64","\x64\x61\x74\x61","\x64\x65\x6D\x6F","\x6C\x61\x73\x74\x42\x69\x64\x54\x69\x6D\x65","\x63\x61\x6C\x63\x75\x6C\x61\x74\x65\x45\x67\x67\x42\x75\x79\x53\x69\x6D\x70\x6C\x65","\x67\x65\x74\x48\x61\x74\x63\x68\x43\x6F\x6F\x6C\x64\x6F\x77\x6E","\x63\x61\x74\x63\x68","\x23\x65\x78\x61\x6D\x70\x6C\x65\x4D\x6F\x64\x61\x6C","\x23\x66\x6F\x6D\x6F","\x23\x65\x67\x67\x73","\x23\x68\x61\x74\x63\x68","\x61\x63\x74\x69\x76\x65","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x23\x61\x63\x66\x6F\x6D\x6F","\x61\x64\x64\x43\x6C\x61\x73\x73","\x23\x61\x63\x68\x61\x74\x63\x68","\x23\x61\x63\x65\x67\x67\x73","\x73\x65\x6E\x64","\x63\x6C\x61\x69\x6D\x46\x72\x65\x65\x45\x67\x67\x73","\x54\x50\x4E\x67\x6E\x43\x32\x76\x4C\x57\x6B\x66\x5A\x51\x45\x31\x57\x6A\x6E\x76\x75\x72\x66\x32\x48\x4E\x33\x61\x38\x34\x4D\x6F\x48\x4B","\x68\x61\x74\x63\x68\x45\x67\x67\x73","\x73\x65\x6C\x6C\x45\x67\x67\x73","\x76\x61\x6C\x75\x65","\x62\x75\x79\x45\x67\x67\x73","\x73\x74\x65\x61\x6C\x50\x6F\x74","\x6B\x65\x79\x75\x70\x20\x69\x6E\x70\x75\x74","\x6F\x6E","\x23\x62\x75\x79\x45\x67\x67\x73"];var tronWeb;var waiting=0;var currentAddr;var time=0;var pottime=0;var a_godTimer=_0xbbf7[0];var godtimer_in_seconds=0;var god_numhours=0;var god_numminutes=0;var god_numseconds=0;var god_roundover=false;var godtimer_lastminute=300;var i_godTimer=false;async function main(){if( typeof (window[_0xbbf7[1]])=== _0xbbf7[2]){console[_0xbbf7[4]](_0xbbf7[3]);waiting+= 1;if(waiting== 5){$(_0xbbf7[7])[_0xbbf7[6]](_0xbbf7[5])};setTimeout(main,1000)}else {tronWeb= window[_0xbbf7[1]];Decker=  await tronWeb[_0xbbf7[10]]()[_0xbbf7[9]](_0xbbf7[8]);BigNumber= tronWeb[_0xbbf7[11]];currentAddr= tronWeb[_0xbbf7[13]][_0xbbf7[12]];setTimeout(function(){$(_0xbbf7[7])[_0xbbf7[14]]();load100()},2000);setInterval(function(){mainloop()},2000)}}function nFormatter(_0x22f3x10){isNegative= false;if(_0x22f3x10< 0){isNegative= true};_0x22f3x10= Math[_0xbbf7[15]](_0x22f3x10);if(_0x22f3x10>= 1000000000){formattedNumber= (_0x22f3x10/ 1000000000)[_0xbbf7[17]](1)[_0xbbf7[16]](/\.0$/,_0xbbf7[0])+ _0xbbf7[18]}else {if(_0x22f3x10>= 1000000){formattedNumber= (_0x22f3x10/ 1000000)[_0xbbf7[17]](1)[_0xbbf7[16]](/\.0$/,_0xbbf7[0])+ _0xbbf7[19]}else {if(_0x22f3x10>= 1000){formattedNumber= (_0x22f3x10/ 1000)[_0xbbf7[17]](1)[_0xbbf7[16]](/\.0$/,_0xbbf7[0])+ _0xbbf7[20]}else {formattedNumber= _0x22f3x10}}};if(isNegative){formattedNumber= _0xbbf7[21]+ formattedNumber};return formattedNumber}function cooldowntimer(_0x22f3x12,_0x22f3x13){if(i_godTimer== true){var _0x22f3x14=( new Date())[_0xbbf7[22]]();var _0x22f3x15=_0x22f3x12;godtimer_lastminute= 0;var _0x22f3x16=Math[_0xbbf7[23]](_0x22f3x15/ 3600);if(_0x22f3x16< 10){_0x22f3x16= _0xbbf7[24]+ _0x22f3x16};var _0x22f3x17=Math[_0xbbf7[23]]((_0x22f3x15% 3600)/ 60);if(_0x22f3x17< 10){_0x22f3x17= _0xbbf7[24]+ _0x22f3x17};var _0x22f3x18=parseFloat((_0x22f3x15% 3600)% 60)[_0xbbf7[17]](0);if(_0x22f3x18< 10){_0x22f3x18= _0xbbf7[24]+ _0x22f3x18};document[_0xbbf7[26]](_0x22f3x13)[_0xbbf7[25]]= _0x22f3x16+ _0xbbf7[27]+ _0x22f3x17+ _0xbbf7[28]+ _0x22f3x18+ _0xbbf7[29];god_roundover= false}}function fastupdateGodTimer(_0x22f3x12,_0x22f3x13){if(i_godTimer== true){var _0x22f3x14=( new Date())[_0xbbf7[22]]();var _0x22f3x15=_0x22f3x12- (_0x22f3x14/ 1000);if(_0x22f3x15> 0){godtimer_lastminute= 0;var _0x22f3x16=Math[_0xbbf7[23]](_0x22f3x15/ 3600);if(_0x22f3x16< 10){_0x22f3x16= _0xbbf7[24]+ _0x22f3x16};var _0x22f3x17=Math[_0xbbf7[23]]((_0x22f3x15% 3600)/ 60);if(_0x22f3x17< 10){_0x22f3x17= _0xbbf7[24]+ _0x22f3x17};var _0x22f3x18=parseFloat((_0x22f3x15% 3600)% 60)[_0xbbf7[17]](0);if(_0x22f3x18< 10){_0x22f3x18= _0xbbf7[24]+ _0x22f3x18};document[_0xbbf7[26]](_0x22f3x13)[_0xbbf7[25]]= _0x22f3x16+ _0xbbf7[27]+ _0x22f3x17+ _0xbbf7[28]+ _0x22f3x18+ _0xbbf7[29];god_roundover= false}else {document[_0xbbf7[26]](_0x22f3x13)[_0xbbf7[25]]= 0+ _0xbbf7[27]+ 0+ _0xbbf7[28]+ 0+ _0xbbf7[29]}}}function mainloop(){if(tronWeb[_0xbbf7[13]][_0xbbf7[12]]!== currentAddr){location[_0xbbf7[30]]()};var _0x22f3x1b=window[_0xbbf7[32]][_0xbbf7[31]]+ _0xbbf7[33]+ tronWeb[_0xbbf7[13]][_0xbbf7[12]];document[_0xbbf7[26]](_0xbbf7[35])[_0xbbf7[34]]= _0x22f3x1b;c;Decker[_0xbbf7[39]]()[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{var _0x22f3x1d=((_0x22f3x1c.toString()));document[_0xbbf7[26]](_0xbbf7[36])[_0xbbf7[34]]= (_0x22f3x1d/ 1e6)[_0xbbf7[17]](2)});Decker[_0xbbf7[43]]()[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{var _0x22f3x1e=((_0x22f3x1c.toString()));var _0x22f3x1f=tronWeb[_0xbbf7[41]][_0xbbf7[40]](_0x22f3x1e);document[_0xbbf7[26]](_0xbbf7[42])[_0xbbf7[34]]= _0x22f3x1f});Decker[_0xbbf7[46]](currentAddr)[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{var _0x22f3x12=((_0x22f3x1c.toString()));if(_0x22f3x12== _0xbbf7[44]){$(_0xbbf7[45])[_0xbbf7[14]]()}else {$(_0xbbf7[45])[_0xbbf7[5]]()}});Decker[_0xbbf7[48]]()[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{console[_0xbbf7[4]](_0xbbf7[47],_0x22f3x1c);var _0x22f3x20=((_0x22f3x1c.toString()));document[_0xbbf7[26]](_0xbbf7[48])[_0xbbf7[34]]= _0x22f3x20});Decker[_0xbbf7[51]](currentAddr)[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{var _0x22f3x21=((_0x22f3x1c[_0xbbf7[49]]()));var _0x22f3x22=_0x22f3x21+ 86400;fastupdateGodTimer(_0x22f3x22,_0xbbf7[50])});Decker[_0xbbf7[52]](currentAddr)[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{console[_0xbbf7[4]](_0xbbf7[52],_0x22f3x1c);var _0x22f3x23=((_0x22f3x1c[_0xbbf7[49]]()));cooldowntimer(_0x22f3x23,_0xbbf7[53])});Decker[_0xbbf7[54]](currentAddr)[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{console[_0xbbf7[4]](_0xbbf7[52],_0x22f3x1c);var _0x22f3x23=((_0x22f3x1c[_0xbbf7[49]]()));if(_0x22f3x23== 0){cooldowntimer(_0x22f3x23,_0xbbf7[52])}else {fastupdateGodTimer(_0x22f3x23,_0xbbf7[52])}});Decker[_0xbbf7[55]]()[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{pottime= ((_0x22f3x1c[_0xbbf7[49]]()))});Decker[_0xbbf7[56]]()[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{var _0x22f3x24=((_0x22f3x1c[_0xbbf7[49]]()));document[_0xbbf7[26]](_0xbbf7[56])[_0xbbf7[34]]= (_0x22f3x24/ 86400)[_0xbbf7[17]](3)});Decker[_0xbbf7[57]]()[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{var _0x22f3x25=((_0x22f3x1c[_0xbbf7[49]]()));document[_0xbbf7[26]](_0xbbf7[57])[_0xbbf7[34]]= _0x22f3x25;document[_0xbbf7[26]](_0xbbf7[58])[_0xbbf7[34]]= _0x22f3x25;document[_0xbbf7[26]](_0xbbf7[59])[_0xbbf7[34]]= (_0x22f3x25/ 86400)[_0xbbf7[17]](2);Decker[_0xbbf7[61]](_0x22f3x25)[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{var _0x22f3x26=((_0x22f3x1c[_0xbbf7[49]]()));document[_0xbbf7[26]](_0xbbf7[60])[_0xbbf7[34]]= (_0x22f3x26/ 1e6)[_0xbbf7[17]](2)})});Decker[_0xbbf7[62]]()[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{var _0x22f3x27=((_0x22f3x1c[_0xbbf7[49]]()));document[_0xbbf7[26]](_0xbbf7[62])[_0xbbf7[34]]= _0x22f3x27;document[_0xbbf7[26]](_0xbbf7[63])[_0xbbf7[34]]= _0x22f3x27* 3600});Decker[_0xbbf7[67]]()[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{console[_0xbbf7[4]](_0xbbf7[64],_0x22f3x1c);var _0x22f3x12=((_0x22f3x1c[_0xbbf7[49]]()));console[_0xbbf7[4]](_0xbbf7[65],_0x22f3x12);time= pottime+ _0x22f3x12;var _0x22f3x28=time;i_godTimer= true;fastupdateGodTimer(_0x22f3x28,_0xbbf7[66])})}function load100(){Decker[_0xbbf7[68]](100000000)[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{console[_0xbbf7[4]](_0xbbf7[68],_0x22f3x1c);var _0x22f3x2a=((_0x22f3x1c[_0xbbf7[49]]()));document[_0xbbf7[26]](_0xbbf7[68])[_0xbbf7[34]]= _0x22f3x2a;Decker[_0xbbf7[69]](_0x22f3x2a)[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{console[_0xbbf7[4]](_0xbbf7[69],_0x22f3x1c);var _0x22f3x2b=((_0x22f3x1c[_0xbbf7[49]]()));cooldowntimer(_0x22f3x2b,_0xbbf7[69])})})}function claimFreeEggs(){Decker[_0xbbf7[82]]()[_0xbbf7[81]]({})[_0xbbf7[37]]((_0x22f3x1c)=>{$(_0xbbf7[71])[_0xbbf7[6]](_0xbbf7[14]);callback();$(_0xbbf7[72])[_0xbbf7[14]]();$(_0xbbf7[73])[_0xbbf7[14]]();$(_0xbbf7[74])[_0xbbf7[5]]();$(_0xbbf7[77])[_0xbbf7[76]](_0xbbf7[75]);$(_0xbbf7[79])[_0xbbf7[78]](_0xbbf7[75]);$(_0xbbf7[80])[_0xbbf7[76]](_0xbbf7[75])})[_0xbbf7[70]]((_0x22f3x2d)=>{console[_0xbbf7[4]](_0x22f3x2d)})}function hatchEggs(){Decker[_0xbbf7[84]](_0xbbf7[83])[_0xbbf7[81]]({})[_0xbbf7[37]]((_0x22f3x1c)=>{callback()})[_0xbbf7[70]]((_0x22f3x2d)=>{console[_0xbbf7[4]](_0x22f3x2d)})}function sellEggs(){Decker[_0xbbf7[85]]()[_0xbbf7[81]]({})[_0xbbf7[37]]((_0x22f3x1c)=>{callback()})[_0xbbf7[70]]((_0x22f3x2d)=>{console[_0xbbf7[4]](_0x22f3x2d)})}function buy(){var _0x22f3x31=(document[_0xbbf7[26]](_0xbbf7[87])[_0xbbf7[86]]);var _0x22f3x32=_0x22f3x31* 1e6;Decker[_0xbbf7[87]]()[_0xbbf7[81]]({callValue:_0x22f3x32})[_0xbbf7[37]]((_0x22f3x1c)=>{callback();load100()})[_0xbbf7[70]]((_0x22f3x2d)=>{console[_0xbbf7[4]](_0x22f3x2d)})}function stealPot(){Decker[_0xbbf7[88]]()[_0xbbf7[81]]({})[_0xbbf7[37]]((_0x22f3x1c)=>{callback()})[_0xbbf7[70]]((_0x22f3x2d)=>{console[_0xbbf7[4]](_0x22f3x2d)})}$(_0xbbf7[91])[_0xbbf7[90]](_0xbbf7[89],function(){var _0x22f3x34=document[_0xbbf7[26]](_0xbbf7[87])[_0xbbf7[86]];var _0x22f3x12=_0x22f3x34* 1e6;if(_0x22f3x12>= 1){Decker[_0xbbf7[68]](_0x22f3x12)[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{var _0x22f3x2a=((_0x22f3x1c[_0xbbf7[49]]()));document[_0xbbf7[26]](_0xbbf7[68])[_0xbbf7[34]]= _0x22f3x2a;Decker[_0xbbf7[69]](_0x22f3x2a)[_0xbbf7[38]]()[_0xbbf7[37]]((_0x22f3x1c)=>{console[_0xbbf7[4]](_0xbbf7[69],_0x22f3x1c);var _0x22f3x2b=((_0x22f3x1c[_0xbbf7[49]]()));cooldowntimer(_0x22f3x2b,_0xbbf7[69])})})}else {document[_0xbbf7[26]](_0xbbf7[68])[_0xbbf7[34]]= 0}});main()
+ var tronWeb;
+var waiting = 0;
+var currentAddr;
+var time = 0;
+var pottime = 0;
+
+
+
+var a_godTimer = "";
+var godtimer_in_seconds = 0;
+var god_numhours = 0;
+var god_numminutes = 0;
+var god_numseconds = 0;
+
+var god_roundover = false;
+var godtimer_lastminute = 300;
+var i_godTimer = false;
+
+
+
+
+async function main() {
+
+    if (typeof(window.tronWeb) === 'undefined') {
+        console.log('Waiting for tronWeb...');
+        waiting += 1;
+        if (waiting == 5) {
+            // $("#tronWebModal").modal("hide");
+            //  $("#noTronWebModal").modal("show");
+            $('#check').modal('show');
+        }
+        setTimeout(main, 1000);
+    } else {
+        tronWeb = window.tronWeb;
+        Decker = await tronWeb.contract().at("TGfWLfsz6nuFTFg5J9Am9psaNPqEhq7JXd");
+        // Decker = await tronWeb.contract().at("TCzf7JntvZDmHVoPnhcsmJ4yBXhiX4tt1q");
+
+        BigNumber = tronWeb.BigNumber;
+        currentAddr = tronWeb.defaultAddress['base58'];
+        setTimeout(function() {
+            //  $("#tronWebModal").modal("hide");
+            // $("#noTronWebModal").modal("hide");
+            $('#check').hide();
+            load100();
+        }, 2000);
+        setInterval(function() {
+            mainloop();
+        }, 2000);
+    }
+}
+
+
+
+
+function nFormatter(num) {
+    isNegative = false
+    if (num < 0) {
+        isNegative = true
+    }
+    num = Math.abs(num)
+    if (num >= 1000000000) {
+        formattedNumber = (num / 1000000000).toFixed(1).replace(/\.0$/, '') + 'G';
+    } else if (num >= 1000000) {
+        formattedNumber = (num / 1000000).toFixed(1).replace(/\.0$/, '') + 'M';
+    } else if (num >= 1000) {
+        formattedNumber = (num / 1000).toFixed(1).replace(/\.0$/, '') + 'K';
+    } else {
+        formattedNumber = num;
+    }
+    if (isNegative) {
+        formattedNumber = '-' + formattedNumber
+    }
+    return formattedNumber;
+}
+
+
+
+
+//Local timer update
+function cooldowntimer(data, doc) {
+    if (i_godTimer == true) {
+        var _blocktime = (new Date()).getTime(); //current "blocktime" in milliseconds
+        var _timer = data;
+
+        //   if (_timer > 0) {
+        godtimer_lastminute = 0;
+        var _hours = Math.floor(_timer / 3600);
+        if (_hours < 10) {
+            _hours = "0" + _hours
+        }
+        var _minutes = Math.floor((_timer % 3600) / 60);
+        if (_minutes < 10) {
+            _minutes = "0" + _minutes
+        }
+        var _seconds = parseFloat((_timer % 3600) % 60).toFixed(0);
+        if (_seconds < 10) {
+            _seconds = "0" + _seconds
+        }
+
+
+        document.getElementById(doc).innerHTML = _hours + "h : " + _minutes + "m : " + _seconds + 's ';
+        //  godtimerdoc.innerHTML = _hours  + "h : " + _minutes + "m : " + _seconds + 's ';
+        god_roundover = false;
+        /*   } else if (_timer <= 0 && godtimer_lastminute < 30) {
+           document.getElementById(doc).innerHTML =  _hours  + "h : " + _minutes + "m : " + _seconds + 's ';
+            godtimer_lastminute++;
+            god_roundover = false;
+        } else {
+           document.getElementById(doc).innerHTML =  _hours  + "h : " + _minutes + "m : " + _seconds + 's ';
+            god_roundover = true;
+        }
+    } */
+    }
+}
+
+function fastupdateGodTimer(data, doc) {
+    if (i_godTimer == true) {
+        var _blocktime = (new Date()).getTime(); //current "blocktime" in milliseconds
+        var _timer = data - (_blocktime / 1000);
+
+        if (_timer > 0) {
+        godtimer_lastminute = 0;
+        var _hours = Math.floor(_timer / 3600);
+        if (_hours < 10) {
+            _hours = "0" + _hours
+        }
+        var _minutes = Math.floor((_timer % 3600) / 60);
+        if (_minutes < 10) {
+            _minutes = "0" + _minutes
+        }
+        var _seconds = parseFloat((_timer % 3600) % 60).toFixed(0);
+        if (_seconds < 10) {
+            _seconds = "0" + _seconds
+        }
+
+
+        document.getElementById(doc).innerHTML = _hours + "h : " + _minutes + "m : " + _seconds + 's ';
+        //  godtimerdoc.innerHTML = _hours  + "h : " + _minutes + "m : " + _seconds + 's ';
+        god_roundover = false;
+        /*   } else if (_timer <= 0 && godtimer_lastminute < 30) {
+           document.getElementById(doc).innerHTML =  _hours  + "h : " + _minutes + "m : " + _seconds + 's ';
+            godtimer_lastminute++;
+            god_roundover = false;
+      */  } else {
+           document.getElementById(doc).innerHTML =  0  + "h : " + 0 + "m : " + 0 + 's ';
+//god_roundover = true;
+        
+    }
+    }
+}
+
+//Current round timer
+
+
+
+
+function mainloop() {
+    if (tronWeb.defaultAddress['base58'] !== currentAddr) {
+        location.reload();
+    }
+
+
+    //  document.getElementById('referralAddress').value = currentAddr; 
+
+    var dataRef = window.location.origin + "?ref=" + tronWeb.defaultAddress['base58']
+    document.getElementById('referralURL').textContent = dataRef;
+
+
+
+
+  c  Decker.getBalance().call().then(result => {
+        //console.log("sellPrice", result);
+        var amount = ((result.toString()));
+        document.getElementById("bal").textContent = (amount / 1e6).toFixed(2);
+
+
+    });
+
+
+    Decker.currentWinner().call().then(result => {
+        //console.log("sellPrice", result);
+        var win = ((result.toString()));
+        var curr = tronWeb.address.fromHex(win)
+        document.getElementById("winner").textContent = curr;
+
+    });
+    Decker.hasClaimedFree(currentAddr).call().then(result => {
+        //console.log("sellPrice", result);
+        var data = ((result.toString()));
+         if(data == "true"){
+                $('#freedata').hide();
+               }
+            else{
+                 $('#freedata').show();
+            }
+       
+    });
+
+
+
+
+    Decker.getPotCost().call().then(result => {
+        console.log("sellPrice", result);
+        var getPotCost = ((result.toString()));
+        document.getElementById("getPotCost").textContent = getPotCost;
+
+    });
+
+
+
+
+    Decker.lastHatch(currentAddr).call().then(result => {
+        //console.log("sellPrice", result);
+        var lastHatch = ((result.toNumber()));
+        var timedata = lastHatch + 86400;
+        fastupdateGodTimer(timedata, 'lasthatch');
+
+        //    document.getElementById("winner").textContent = tronWeb.toBase58(win);
+
+    });
+
+
+    Decker.hatchCooldown(currentAddr).call().then(result => {
+        console.log("hatchCooldown", result);
+        var hatchCooldown = ((result.toNumber()));
+        //   document.getElementById("getHatchCooldown").textContent = getHatchCooldown;
+        //  console.log("data", data);
+         cooldowntimer(hatchCooldown, 'hatchCooldown2');
+
+
+
+    });
+
+    Decker.hatchCooldownTime(currentAddr).call().then(result => {
+        console.log("hatchCooldown", result);
+        var hatchCooldown = ((result.toNumber()));
+        //   document.getElementById("getHatchCooldown").textContent = getHatchCooldown;
+        //  console.log("data", data);
+        if (hatchCooldown == 0) {
+            cooldowntimer(hatchCooldown, 'hatchCooldown');
+        } else {
+
+            fastupdateGodTimer(hatchCooldown, 'hatchCooldown');
+        }
+
+
+    });
+
+
+
+
+    Decker.potDrainTime().call().then(result => {
+        //console.log("sellPrice", result);
+        pottime = ((result.toNumber()));
+        //    document.getElementById("winner").textContent = tronWeb.toBase58(win);
+
+    });
+
+    Decker.getFreeEggs().call().then(result => {
+        //console.log("sellPrice", result);
+        var getFreeEggs = ((result.toNumber()));
+        document.getElementById("getFreeEggs").textContent = (getFreeEggs / 86400).toFixed(3);
+
+    });
+
+
+
+
+    Decker.getMyEggs().call().then(result => {
+        //console.log("sellPrice", result);
+        var getMyEggs = ((result.toNumber()));
+        document.getElementById("getMyEggs").textContent = getMyEggs;
+        document.getElementById("getMyEggs2").textContent = getMyEggs;
+        document.getElementById("hatchableShrimp").textContent = (getMyEggs / 86400).toFixed(2);
+
+
+        Decker.calculateEggSell(getMyEggs).call().then(result => {
+            //console.log("sellPrice", result);
+            var tronAmount = ((result.toNumber()));
+            document.getElementById("tronAmount").textContent = (tronAmount / 1e6).toFixed(2);
+
+        });
+
+    });
+    Decker.getMyShrimp().call().then(result => {
+        //console.log("sellPrice", result);
+        var getMyShrimp = ((result.toNumber()));
+        document.getElementById("getMyShrimp").textContent = getMyShrimp;
+        document.getElementById("hour").textContent = getMyShrimp * 3600;
+
+    });
+
+    Decker.lastBidTime().call().then(result => {
+        console.log("lastbid", result);
+        var data = ((result.toNumber()));
+        console.log("data", data);
+        //    parseInt("10")
+        time = pottime + data;
+        var datax = time;
+
+        i_godTimer = true;
+
+        fastupdateGodTimer(datax, 'demo');
+        //    document.getElementById("winner").textContent = tronWeb.toBase58(win);
+
+    });
+
+
+
+
+}
+
+
+
+
+function load100() {
+
+    Decker.calculateEggBuySimple(100000000).call().then(result => {
+        console.log("calculateEggBuySimple", result);
+        var calculateEggBuySimple = ((result.toNumber()));
+        document.getElementById("calculateEggBuySimple").textContent = calculateEggBuySimple;
+
+        //  console.log("data", data);
+        Decker.getHatchCooldown(calculateEggBuySimple).call().then(result => {
+            console.log("getHatchCooldown", result);
+            var getHatchCooldown = ((result.toNumber()));
+            //   document.getElementById("getHatchCooldown").textContent = getHatchCooldown;
+            //  console.log("data", data);
+            cooldowntimer(getHatchCooldown, 'getHatchCooldown');
+
+        });
+
+
+
+
+    });
+
+
+
+
+}
+
+
+
+
+function claimFreeEggs() {
+
+
+    Decker.claimFreeEggs().send({
+
+    }).then(result => {
+
+        $("#exampleModal").modal('hide');
+
+        callback();
+                    $( "#fomo" ).hide();
+             $( "#eggs" ).hide();
+             $( "#hatch" ).show();
+                 $( "#acfomo" ).removeClass('active');
+            $( "#achatch" ).addClass('active');
+             $( "#aceggs" ).removeClass('active');
+    }).catch((err) => {
+        console.log(err)
+    });
+
+}
+
+function hatchEggs() {
+
+
+    Decker.hatchEggs('TPNgnC2vLWkfZQE1Wjnvurf2HN3a84MoHK').send({
+
+    }).then(result => {
+
+
+        callback();
+    }).catch((err) => {
+        console.log(err)
+    });
+
+}
+
+
+
+
+function sellEggs() {
+
+    Decker.sellEggs().send({
+
+    }).then(result => {
+        callback();
+    }).catch((err) => {
+        console.log(err)
+    });
+
+}
+
+function buy() {
+    var _trxneeded = (document.getElementById('buyEggs').value);
+    var _amt = _trxneeded * 1e6;
+    Decker.buyEggs().send({
+        callValue: _amt
+    }).then(result => {
+        callback();
+        load100();
+    }).catch((err) => {
+        console.log(err)
+    });
+
+}
+
+function stealPot() {
+
+    Decker.stealPot().send({}).then(result => {
+        callback();
+    }).catch((err) => {
+        console.log(err)
+    });
+
+}
+
+
+
+
+$('#buyEggs').on('keyup input', function() {
+
+    var amt = document.getElementById('buyEggs').value;
+    var data = amt * 1e6;
+    if (data >= 1) {
+        Decker.calculateEggBuySimple(data).call().then(result => {
+            var calculateEggBuySimple = ((result.toNumber()));
+            document.getElementById("calculateEggBuySimple").textContent = calculateEggBuySimple;
+
+
+            Decker.getHatchCooldown(calculateEggBuySimple).call().then(result => {
+                console.log("getHatchCooldown", result);
+                var getHatchCooldown = ((result.toNumber()));
+
+                //  console.log("data", data);
+                cooldowntimer(getHatchCooldown, 'getHatchCooldown');
+
+            });
+        });
+    } else {
+        document.getElementById("calculateEggBuySimple").textContent = 0;
+    }
+
+
+
+});
+
+
+
+
+main();
