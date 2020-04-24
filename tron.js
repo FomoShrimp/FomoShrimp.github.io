@@ -168,7 +168,7 @@ function mainloop() {
 
 
 
-  c  Decker.getBalance().call().then(result => {
+  Decker.getBalance().call().then(result => {
         //console.log("sellPrice", result);
         var amount = ((result.toString()));
         document.getElementById("bal").textContent = (amount / 1e6).toFixed(2);
